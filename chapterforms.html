@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Chapter Forms HTML</h2>
+
+    <form action="./success.html">
+        <label for="name">Username:</label>     
+        <input id="name" size="30px" maxlength="35px" type="text" />   
+        
+        <p> Username:
+        <input type="text" name="username" size="15px" maxlength="30px" />    
+        </p> 
+        <label for="password">Password:</label>  
+        <input id="password" size="30px" maxlength="15px" type="password" />
+        
+        <P> Password:
+        <input type="password" name="password" size="15px" maxlength="30px" />    
+        </P>  <br />
+        
+        <p>WHAT DO YOU THINK ABOUT THIS GIG ? </p> 
+        
+        <textarea placeholder="enter your comments" rows="8px" col="40px">
+            ENTER YOU COMMENTS......</textarea>
+        
+        <p> What do you think about this gig ? </p>
+        <textarea name="comments" col="20px" rows="4px">Enter you comments...</textarea>    
+        
+         <p>Please select your favourite genre: <br />
+         <label for="rock">Rock</label>
+         <input id="rock"name="gender"  checked="checked" type="radio" value="Rock" />
+         <label for="pop">Pop</label>
+         <input id="pop" name="gender" type="radio" value="Pop" />   
+         <label for="jazz">Jazz</label>
+         <input id="jazz" name="gender" type="radio" value="Jazz" />
+        </p>
+        <p> Please select your favourite music service(s): <br />
+         <label for="itune">iTune</label>  
+         <input id="itune" name="music" checked="checked" type="checkbox" value="itune" /> 
+         <label for="last fm">Last fm</label>
+         <input id="last fm" name="music" type="checkbox" value="last fm" />
+         <label for="spotify">Spotify</label>
+         <input id="spotify" name="music" type="checkbox" value="spotify"/></p>
+        
+        <p> What device do you listen to on ?</p>
+        <select  name="devices" >
+           
+        <option value="ipod" >ipod</option>   
+        <option value="radio">Radio</option>
+        <option value="computer">Computer</option> 
+        </select> 
+        <p>Do you play any of the following instruments?
+            (You can select more than one option by holding
+            down control on a PC or command key on a Mac
+            while selecting different options.)</p>
+        <select multiple size="5">
+        <option selected> Guitar</option>  
+        <option>Drum</option>
+        <option>Keyboard</option>
+        <option selected>Bass</option>
+        </select>   
+        
+        <p>Upload your song in MP3 format:</p>
+        
+        <input type="file" name="user.song" value="browse" /> <br />
+        <input type="submit" value="upload" />
+        
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" /> 
+        <input type="submit" name="subscribe" value="Subscribe" /> 
+        <p>Subscribe to our email list: </p>
+        
+        <input type="text" name="email" />
+        <input type="image" src="image/subscrible.jpg" 
+        alt="image is not shows" width="150" height="20" /> <br />
+        <p>
+        <button> <img src="images/add.gif" alt=" + add " 
+        height="10" width="10" /></button> </p>
+        <input type="hidden" name="book mark" value="lyrics" />
+        <p> <label >Age: </label>
+            <input type="text" /> <br />
+         Gender:   
+         <label for="female" >Female</label>  
+         <input type="radio" id="female" name="gender" value="f" checked="checked"  /> 
+         <label for="male">Male</label>
+         <input type="radio" id="male"name="gender" value="m"  /></p>
+        <fieldset>
+        <legend>Contact details:</legend>
+        <label>Email: <br/>
+        <input type="text" name="email" /></label> <br/>
+        <label>Mobile: <br/>
+        <input type="text" name="mobile" /></label> <br />
+        <label>Telephone: <br />
+        <input type="text" name="telephone"  /></label> <br />
+        <p> <br />
+        
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required="required" /> </title><br />
+        <label for="password">Password:</label> <!--</title> ?-->
+        <input type="text" id="password" name="password" required="required" />
+        <input type="submit" value="submit" /></p>
+        
+        <label for="username">Departure Date:</label>
+        <input type="date" id="departure" name="departure"/>
+        <input type="submit" value="submit" /></fieldset> <br /> 
+
+ <form action="./success.html">
+<p>Please enter your email address:</p>
+<input type="email" name="email"  />
+<input type="submit" value="submit" /></form> <br />
+
+<form action="./success.html">
+<p>Please enter your Web Site address:</p>    
+<input type="url" name="website" />
+<input type="submit" value="submit"  />
+</form> <!-- email address/url-->
+
+<form action="./success.html">
+<p>Search</p>
+<input type="search" name="search" />
+<input type="submit" value="Search" />
+</form>
+
+<form action="./success.html">search
+<p>search</p>
+<input type="search" name="search" placeholder="Enter keyword"/>
+<input type="submit" value="search" /></form> <br />
+
+
+
+
+
+
+
+
+
+<input type="submit" />
+</form>
+
+        
+  
+    
+</body>
+</html>        
